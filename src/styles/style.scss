@@ -1,0 +1,39 @@
+@import "_global_vars.scss";
+@import "_movies_list.scss";
+@import "_header.scss";
+@import "_movie_card.scss";
+
+* {
+    font-family: $font-family;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow-y:scroll;
+    margin:0;
+    background-color: $white;
+}
+
+html {
+    min-height: 100%;
+    font-size: $main-font-size;
+}
+
+textarea {
+    width: 300px;
+    height: 3em;
+}
+
+ul {
+    list-style: none;
+    margin: 0 1em;
+    padding: 0 1em;
+
+    li {
+        margin: .3em 0;
+    }
+}

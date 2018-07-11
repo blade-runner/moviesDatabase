@@ -1,0 +1,19 @@
+.main__movies {
+    margin-top: 3em;
+    display: flex;
+    flex-flow: row wrap;
+
+    article {
+        flex: 0 1 19%;
+        margin: .3em;
+        padding: .3em;
+        border: 1px solid #d4d4d4;
+        cursor: pointer;
+
+        &:hover {
+            background: #ccc;
+        }
+
+    }
+}
+ 
