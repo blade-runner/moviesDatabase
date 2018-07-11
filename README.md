@@ -6,6 +6,8 @@
 
 Запуск:
 
-> npm install
-> npm run start
+npm install
+
+npm run start
+
 дальше браузером на http://localhost:8080 
